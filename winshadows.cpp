@@ -37,7 +37,7 @@ public:
     void init() override {
             if (!wf::get_core().is_gles2())
         {
-            LOGE("water plugin requires GLES2 renderer!");
+            LOGE("winshadows plugin requires GLES2 renderer!");
             return;
         }
         wf::get_core().connect(&on_view_mapped);
